@@ -1,0 +1,32 @@
+{% extends 'testbase/base.html' %}
+{% load staticfiles %}
+{% load admin_extras_tags %}
+
+{% block title %} Group List{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+     <div class="col text-right"><a href="{% url 'group_create' %}"><h5><i class="fa fa-users"></i>Add new group</h5></a></div>
+     <table class="table">
+        <thead class="thead">
+            <tr>
+                <th scope="col">Group Name</th>
+                <th scope="col">Course Leader</th>
+                <th scope="col">Count of students</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        {% for item in object_list %}
+        <tr>
+            <td><a href="{{ item.get_absolute_url }}">{{item.name}}</a></td>
+            <td>{{item.course_leader}}</td>
+            <td>{{ item.student_set.count }}</td>
+            <td><div><a href="{% url 'group_edit' item.pk %}"><i class="fa fa-edit" style="font-size:1.3em"></i></a></div></td>
+            <td><div><a href="{% url 'group_delete' item.pk %}"><i class="fa fa-trash" style="font-size:1.3em"></i></a></div></td>
+            <td><div><a href="{% edit_admin item %}"><i class="fa fa-edit" style="font-size:1.3em">(In Admin)</i></a></div></td>
+        {% endfor %}
+    </table>
+    </div>
+{% endblock %}

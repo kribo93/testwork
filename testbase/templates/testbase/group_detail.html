@@ -1,0 +1,67 @@
+{% extends 'testbase/base.html' %}
+{% load staticfiles %}
+{% load admin_extras_tags %}
+
+
+{% block title %} Group Detail{% endblock %}
+
+{% block content %}
+    <div class="container">
+    <div class="row">
+        <div class="col"><h4>Group: {{group.name }}</h4></div>
+        <div class="col text-right"><a href="{% url 'student_create' %}"><h5><i class="fa fa-user-plus"></i>Add new student</h5></a></div>
+    </div>
+
+    </div>
+    <div>
+        <h3>Group leader:{{ group.course_leader }}</h3>
+    </div>
+        <div class="container">
+        <h4></h4>
+        <h3>List of students</h3>
+            <div class="container">
+                <table class="table">
+                    <thead class="thead">
+                        <tr>
+                            <th scope="col">First Name</th>
+                            <th scope="col">Last Name</th>
+                            <th scope="col">Date of birth</th>
+                            <th scope="col">Card number</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    {% for student in students_list %}
+                             <tr>
+                                <td>{{ student.first_name }}</td>
+                                <td>{{ student.last_name }}</td>
+                                <td>{{ student.date_of_birth }}</td>
+                                <td>{{ student.card_number }}</td>
+                                <td>
+                                    <div>
+                                        <a href="{% url 'student_edit' student.pk %}">
+                                              <i class="fa fa-edit" style="font-size:1.3em"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <a href="{% url 'student_delete' student.pk %}">
+                                            <i class="fa fa-trash" style="font-size:1.3em"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <a href="{% edit_admin student %}">
+                                              <i class="fa fa-edit" style="font-size:1.3em">(In Admin)</i>
+                                        </a>
+                                    </div>
+                                </td>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+     <h6><a href="{% edit_admin group %}">Edit group information</a></h6>
+{% endblock %}

@@ -1,0 +1,3109 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$6xL5ZAEKZUW7$SG0hHZFriw676eev7orOFNjSLKzzonQsm8yMVbuLRX8=",
+        "last_login": "2018-03-25T14:33:44.203Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@base.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-02-28T07:10:24.264Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7vx1cpr29hdlsb4lp7ytyaqe4xwbwzmt",
+    "fields": {
+        "session_data": "MTg1MmNkNDEzZWZiYTk4NGM4MDFmNDRjNTM4MjdhN2MwNzU4MTIyZDp7Il9hdXRoX3VzZXJfaGFzaCI6ImQ0ZGU1YTIzY2MyMGZhOTJhNDYxZmY4OWY2MWU2OWJlOGZiZjZmNjkiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+        "expire_date": "2018-04-08T14:33:44.514Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ezndxuvac1cok8h7oq98gv3n9hdn4rqk",
+    "fields": {
+        "session_data": "MGQ1YjJmOTEwZDJmNzU1MDFjMTJkM2M0YzEzMjkwNzk0YmVjMGE0OTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZDRkZTVhMjNjYzIwZmE5MmE0NjFmZjg5ZjYxZTY5YmU4ZmJmNmY2OSIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+        "expire_date": "2018-03-15T08:10:18.483Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "um1ffc8jpbjcqcp6xg3519tzbe52fq0b",
+    "fields": {
+        "session_data": "ZDNhMzEyYWQwNDFhMjFmY2U4NjU4YmJkZGVlODY0NTY0M2U5MTU5Mjp7Il9hdXRoX3VzZXJfaGFzaCI6ImQ0ZGU1YTIzY2MyMGZhOTJhNDYxZmY4OWY2MWU2OWJlOGZiZjZmNjkiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6InRlc3RiYXNlLmF1dGhlbnRpY2F0aW9uLkVtYWlsQXV0aEJhY2tlbmQifQ==",
+        "expire_date": "2018-03-20T18:38:17.010Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 33,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "AP12-1/8",
+        "datetime": "2018-03-08T20:45:44.556Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 34,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "Egor ssdf",
+        "datetime": "2018-03-08T20:45:44.557Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 35,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "Pashka sdsd",
+        "datetime": "2018-03-08T20:45:44.557Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 36,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "group",
+        "object_name": "VEBN09-1/12",
+        "datetime": "2018-03-09T19:35:43.466Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 37,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "Jury Boyko",
+        "datetime": "2018-03-09T19:35:43.542Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 38,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "James Bond",
+        "datetime": "2018-03-09T19:35:43.543Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 39,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "Jonh Lukas",
+        "datetime": "2018-03-09T19:35:43.543Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 40,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Adam Jonhson",
+        "datetime": "2018-03-09T19:36:17.989Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 41,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Pashka Egorenko",
+        "datetime": "2018-03-09T19:36:37.901Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 42,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Egor Karpov",
+        "datetime": "2018-03-09T19:37:30.467Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 43,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Kioto Mikamuro",
+        "datetime": "2018-03-09T19:37:57.683Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 44,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "MEPS08-1/9",
+        "datetime": "2018-03-09T19:38:20.896Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 45,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Kioto Mikamuro",
+        "datetime": "2018-03-09T19:38:38.412Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 46,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Df xcvb",
+        "datetime": "2018-03-09T19:38:43.857Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 47,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Vasia Pupkin",
+        "datetime": "2018-03-09T19:38:55.431Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 48,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Adolf Hallen",
+        "datetime": "2018-03-09T19:39:41.654Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 49,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "AP12-1/8",
+        "datetime": "2018-03-11T14:29:35.835Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 50,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "VEBN09-1/12",
+        "datetime": "2018-03-11T14:29:55.159Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 51,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "group",
+        "object_name": "kir",
+        "datetime": "2018-03-15T09:23:08.609Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 52,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "group",
+        "object_name": "kir",
+        "datetime": "2018-03-15T09:23:17.418Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 53,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "group",
+        "object_name": "BN67",
+        "datetime": "2018-03-19T09:06:48.812Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 54,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "BN67",
+        "datetime": "2018-03-19T09:06:49.023Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 55,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "gyu gyu",
+        "datetime": "2018-03-19T09:26:15.731Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 56,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "gyu gyu",
+        "datetime": "2018-03-19T09:26:15.943Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 57,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "gyu gyu",
+        "datetime": "2018-03-19T09:27:33.728Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 58,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "gyu gyu",
+        "datetime": "2018-03-19T09:27:33.939Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 59,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "student",
+        "object_name": "gyu gyu",
+        "datetime": "2018-03-19T09:27:44.068Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 60,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "student",
+        "object_name": "gyu gyu",
+        "datetime": "2018-03-19T09:27:55.737Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 61,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Adam Jonhsonu",
+        "datetime": "2018-03-19T09:40:12.426Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 62,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Adam Jonhson",
+        "datetime": "2018-03-19T09:40:19.926Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 63,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Adam Jonhson",
+        "datetime": "2018-03-20T08:48:28.826Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 64,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "MEPS08-1/9",
+        "datetime": "2018-03-20T08:48:59.177Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 65,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "VEBN09-1/12",
+        "datetime": "2018-03-20T08:49:07.298Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 66,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "VEBN09-1/12",
+        "datetime": "2018-03-20T08:51:28.167Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 67,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "VEBN09-1/12",
+        "datetime": "2018-03-20T08:52:06.104Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 68,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Adam Jonhson",
+        "datetime": "2018-03-20T08:52:34.711Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 69,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "group",
+        "object_name": "BN67",
+        "datetime": "2018-03-20T09:11:20.342Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 70,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "group",
+        "object_name": "FFG",
+        "datetime": "2018-03-20T09:13:30.172Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 71,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "FFG",
+        "datetime": "2018-03-20T09:13:30.417Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 72,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "group",
+        "object_name": "FFG",
+        "datetime": "2018-03-20T09:13:39.673Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 73,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "group",
+        "object_name": "gg",
+        "datetime": "2018-03-20T09:16:20.953Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 74,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "gg",
+        "datetime": "2018-03-20T09:16:21.200Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 75,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "asd asdasd",
+        "datetime": "2018-03-20T09:16:42.263Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 76,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "asd asdasd",
+        "datetime": "2018-03-20T09:16:42.494Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 77,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "fghjfg hjfghj",
+        "datetime": "2018-03-20T09:17:08.568Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 78,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "fghjfg hjfghj",
+        "datetime": "2018-03-20T09:17:08.790Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 79,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "student",
+        "object_name": "fghjfg hjfghj",
+        "datetime": "2018-03-20T09:18:24.574Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 80,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "df dfg",
+        "datetime": "2018-03-20T09:24:28.508Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 81,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "df dfg",
+        "datetime": "2018-03-20T09:24:28.792Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 82,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "student",
+        "object_name": "asd asdasd",
+        "datetime": "2018-03-21T06:40:11.352Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 83,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "student",
+        "object_name": "df dfg",
+        "datetime": "2018-03-21T06:40:18.095Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 84,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "csd sdf",
+        "datetime": "2018-03-21T06:44:12.939Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 85,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "csd sdf",
+        "datetime": "2018-03-21T06:44:13.170Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 86,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "fdhfd hfdgh",
+        "datetime": "2018-03-21T06:44:28.537Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 87,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "fdhfd hfdgh",
+        "datetime": "2018-03-21T06:44:28.746Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 88,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "student",
+        "object_name": "fdhfd hfdgh",
+        "datetime": "2018-03-21T06:44:48.647Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 89,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "student",
+        "object_name": "esr ert",
+        "datetime": "2018-03-21T06:45:03.732Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 90,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "esr ert",
+        "datetime": "2018-03-21T06:45:03.987Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 91,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "group",
+        "object_name": "cftcft",
+        "datetime": "2018-03-21T07:10:00.028Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 92,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "cftcft",
+        "datetime": "2018-03-21T07:10:00.261Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 93,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "group",
+        "object_name": "cftcft",
+        "datetime": "2018-03-21T07:10:16.083Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 94,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "group",
+        "object_name": "dfh",
+        "datetime": "2018-03-21T07:10:23.880Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 95,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "dfh",
+        "datetime": "2018-03-21T07:10:24.113Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 96,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "group",
+        "object_name": "dfh",
+        "datetime": "2018-03-21T07:10:30.829Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 97,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "group",
+        "object_name": "656",
+        "datetime": "2018-03-21T07:23:56.803Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 98,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "656",
+        "datetime": "2018-03-21T07:23:57.170Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 99,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "group",
+        "object_name": "656",
+        "datetime": "2018-03-21T07:24:06.758Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 100,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "group",
+        "object_name": "fgj",
+        "datetime": "2018-03-21T07:32:29.348Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 101,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "fgj",
+        "datetime": "2018-03-21T07:32:29.621Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 102,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "group",
+        "object_name": "o",
+        "datetime": "2018-03-21T07:32:57.588Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 103,
+    "fields": {
+        "action": "\u0421REATED",
+        "model_name": "group",
+        "object_name": "as",
+        "datetime": "2018-03-21T08:39:20.773Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 104,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "group",
+        "object_name": "as",
+        "datetime": "2018-03-21T08:39:20.959Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 105,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "group",
+        "object_name": "gg",
+        "datetime": "2018-03-25T14:35:18.201Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 106,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "student",
+        "object_name": "esr ert",
+        "datetime": "2018-03-25T14:35:18.322Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 107,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "student",
+        "object_name": "csd sdf",
+        "datetime": "2018-03-25T14:35:18.323Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 108,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "group",
+        "object_name": "o",
+        "datetime": "2018-03-25T14:35:20.623Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 109,
+    "fields": {
+        "action": "DELETED",
+        "model_name": "group",
+        "object_name": "as",
+        "datetime": "2018-03-25T14:35:23.065Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 110,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Jonh Lukas",
+        "datetime": "2018-03-25T14:44:19.764Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 111,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "James Bond",
+        "datetime": "2018-03-25T14:44:24.288Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 112,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Jury Boyko",
+        "datetime": "2018-03-25T14:44:28.863Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 113,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Pashka Egorenko",
+        "datetime": "2018-03-25T14:44:34.406Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 114,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Egor Karpov",
+        "datetime": "2018-03-25T14:44:39.803Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 115,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Vasia Pupkin",
+        "datetime": "2018-03-25T14:44:46.429Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 116,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Kioto Mikamuro",
+        "datetime": "2018-03-25T14:44:51.856Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 117,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Adolf Hallen",
+        "datetime": "2018-03-25T14:44:59.836Z"
+    }
+},
+{
+    "model": "testbase.model_log",
+    "pk": 118,
+    "fields": {
+        "action": "CHANGED",
+        "model_name": "student",
+        "object_name": "Adam Jonhson",
+        "datetime": "2018-03-25T14:45:08.586Z"
+    }
+},
+{
+    "model": "testbase.group",
+    "pk": 6,
+    "fields": {
+        "name": "BO12-1/10",
+        "course_leader": 19
+    }
+},
+{
+    "model": "testbase.group",
+    "pk": 8,
+    "fields": {
+        "name": "MEPS08-1/9",
+        "course_leader": 22
+    }
+},
+{
+    "model": "testbase.group",
+    "pk": 9,
+    "fields": {
+        "name": "AP12-1/8",
+        "course_leader": 24
+    }
+},
+{
+    "model": "testbase.group",
+    "pk": 10,
+    "fields": {
+        "name": "VEBN09-1/12",
+        "course_leader": 27
+    }
+},
+{
+    "model": "testbase.group",
+    "pk": 18,
+    "fields": {
+        "name": "fgj",
+        "course_leader": null
+    }
+},
+{
+    "model": "testbase.student",
+    "pk": 19,
+    "fields": {
+        "first_name": "Adam",
+        "last_name": "Jonhson",
+        "date_of_birth": "2018-03-22",
+        "card_number": 2,
+        "in_group": 10
+    }
+},
+{
+    "model": "testbase.student",
+    "pk": 21,
+    "fields": {
+        "first_name": "Adolf",
+        "last_name": "Hallen",
+        "date_of_birth": "1993-12-18",
+        "card_number": 1,
+        "in_group": 9
+    }
+},
+{
+    "model": "testbase.student",
+    "pk": 22,
+    "fields": {
+        "first_name": "Kioto",
+        "last_name": "Mikamuro",
+        "date_of_birth": "1993-03-05",
+        "card_number": 266,
+        "in_group": 8
+    }
+},
+{
+    "model": "testbase.student",
+    "pk": 23,
+    "fields": {
+        "first_name": "Vasia",
+        "last_name": "Pupkin",
+        "date_of_birth": "1991-06-08",
+        "card_number": 24,
+        "in_group": 10
+    }
+},
+{
+    "model": "testbase.student",
+    "pk": 24,
+    "fields": {
+        "first_name": "Egor",
+        "last_name": "Karpov",
+        "date_of_birth": "1992-03-02",
+        "card_number": 1564,
+        "in_group": 9
+    }
+},
+{
+    "model": "testbase.student",
+    "pk": 25,
+    "fields": {
+        "first_name": "Pashka",
+        "last_name": "Egorenko",
+        "date_of_birth": "2017-01-24",
+        "card_number": 1456,
+        "in_group": 8
+    }
+},
+{
+    "model": "testbase.student",
+    "pk": 26,
+    "fields": {
+        "first_name": "Jury",
+        "last_name": "Boyko",
+        "date_of_birth": "2017-10-01",
+        "card_number": 34,
+        "in_group": 6
+    }
+},
+{
+    "model": "testbase.student",
+    "pk": 27,
+    "fields": {
+        "first_name": "James",
+        "last_name": "Bond",
+        "date_of_birth": "2017-03-05",
+        "card_number": 9,
+        "in_group": 6
+    }
+},
+{
+    "model": "testbase.student",
+    "pk": 28,
+    "fields": {
+        "first_name": "Jonh",
+        "last_name": "Lukas",
+        "date_of_birth": "2016-12-19",
+        "card_number": 23,
+        "in_group": 6
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2018-02-28T07:58:28.955Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Study_Group object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2018-02-28T07:58:32.829Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Study_Group object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2018-02-28T07:58:36.675Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Study_Group object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2018-02-28T07:58:40.059Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Study_Group object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2018-02-28T07:59:01.521Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Student object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2018-02-28T08:12:06.807Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Student object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2018-02-28T08:12:14.703Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Study_Group object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2018-02-28T08:12:14.765Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Study_Group object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2018-02-28T08:12:14.820Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Study_Group object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2018-02-28T08:12:14.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Study_Group object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2018-02-28T08:14:09.541Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Study_Group object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2018-02-28T08:14:29.914Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Student object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2018-02-28T08:14:34.284Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Student object",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"groupe\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2018-02-28T08:24:19.895Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "B1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2018-02-28T08:24:24.221Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "N4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2018-02-28T08:26:17.306Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "V1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"course_leader\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2018-02-28T08:55:50.494Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "GHj fghg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2018-02-28T08:56:05.888Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "hgj fgytu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2018-03-02T08:17:02.760Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "pupkin 1fgfd",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2018-03-02T08:17:23.802Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "qwery ee",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2018-03-02T08:17:37.712Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "asdf asd",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2018-03-02T09:15:23.460Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "B1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"course_leader\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2018-03-06T19:43:13.790Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "asdf asd",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"card_number\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2018-03-06T19:45:19.392Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2018-03-06T19:47:58.117Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "MEPS08-1/9",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2018-03-06T19:49:27.114Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "IV11-1/11",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2018-03-06T19:50:01.642Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "hgj fgytu",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2018-03-06T19:51:56.525Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Andrew Pupkow",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2018-03-06T19:52:11.992Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "GHj fghg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2018-03-06T19:57:29.477Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "MAU07-1/8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"student\", \"object\": \"Nikolay Novoselow\"}}, {\"added\": {\"name\": \"student\", \"object\": \"Egor Batrudinow\"}}, {\"added\": {\"name\": \"student\", \"object\": \"Dmitry Bondarenko\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2018-03-06T20:02:58.139Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Egor Egorenko",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2018-03-06T20:03:24.653Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Egor Batrudinow",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2018-03-06T20:06:24.168Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Mihail Astrecov",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2018-03-06T20:07:25.092Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Vasiliy Golowenko",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"card_number\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2018-03-06T20:08:24.676Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "AP12-1/8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}, {\"changed\": {\"name\": \"student\", \"object\": \"Jonh Dou\", \"fields\": [\"first_name\", \"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2018-03-06T20:08:54.727Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "Bill Murrey",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2018-03-06T20:12:27.088Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "BOTP13-1/8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"Aleks Johnson\", \"name\": \"student\"}}, {\"added\": {\"object\": \"Whitney Houston\", \"name\": \"student\"}}, {\"added\": {\"object\": \"Jessica Alba\", \"name\": \"student\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2018-03-06T20:12:48.545Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "BO13-1/8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2018-03-06T20:15:05.136Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "George Hallen",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2018-03-06T20:15:54.220Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "AP12-1/8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"course_leader\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2018-03-06T20:16:17.098Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "MAU07-1/8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"course_leader\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2018-03-06T20:16:44.170Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "BO13-1/8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"course_leader\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2018-03-06T20:16:58.705Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Andrew Palkow",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2018-03-06T20:17:17.257Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "AP12-1/10",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2018-03-06T20:18:34.492Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "Abraam Lincoln",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2018-03-06T20:19:01.322Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "15",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2018-03-06T20:19:01.430Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "14",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2018-03-06T20:19:01.520Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "13",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2018-03-06T20:19:01.587Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "12",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2018-03-06T20:19:20.412Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "BO13-1/9",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2018-03-06T20:19:43.472Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Jonh Douson",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2018-03-06T20:19:55.660Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2018-03-06T20:20:19.707Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "Dmitry Bondarenko",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2018-03-06T20:27:22.937Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "17",
+        "object_repr": "Leroy Jordahn",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2018-03-06T20:27:34.015Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "BO12-1/9",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2018-03-06T20:27:50.359Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "BO12-1/9",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"course_leader\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2018-03-06T20:47:14.169Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "Abraam Lincoln",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2018-03-08T17:47:43.767Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "20",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2018-03-08T17:47:43.841Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "19",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2018-03-08T17:47:43.918Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "18",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2018-03-08T17:47:43.998Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "17",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2018-03-08T17:47:44.110Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "16",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2018-03-08T17:47:44.198Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "11",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2018-03-08T17:47:44.287Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "10",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2018-03-08T17:47:44.351Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2018-03-08T17:47:44.432Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2018-03-08T17:47:44.521Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2018-03-08T17:47:44.598Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2018-03-08T17:47:44.676Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2018-03-08T17:47:44.754Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2018-03-08T17:47:44.821Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2018-03-08T17:47:44.887Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2018-03-08T17:52:55.909Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "Jessica Albe",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2018-03-08T17:53:47.812Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Vasiliy Golowenko",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2018-03-08T17:54:40.264Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "18",
+        "object_repr": "Vasiliy Golowenko",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2018-03-08T17:58:59.859Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2018-03-08T17:58:59.945Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2018-03-08T17:59:00.012Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2018-03-08T17:59:00.078Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2018-03-08T17:59:00.145Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2018-03-08T18:02:27.512Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "Jessica Alba",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2018-03-08T18:07:44.662Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "17",
+        "object_repr": "Leroy Jordah",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2018-03-08T18:07:56.250Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2018-03-08T18:08:08.858Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "BO12-1/10",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2018-03-08T18:08:18.483Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "17",
+        "object_repr": "Leroy Jordahn",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2018-03-08T18:09:17.656Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Egor Batrudinow",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"off_group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2018-03-08T18:09:25.577Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Egor Batrudinow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2018-03-08T18:09:50.006Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "George Hallen",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2018-03-08T18:09:55.966Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Jonh Douson",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2018-03-08T18:10:09.495Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "Jessica Alba",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2018-03-08T18:16:03.989Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "BO12-1/10",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"1asdf fghn\", \"name\": \"student\"}}, {\"added\": {\"object\": \"adf yujty\", \"name\": \"student\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2018-03-08T18:16:22.657Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "BO12-1/10",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"course_leader\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2018-03-08T18:21:11.764Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "20",
+        "object_repr": "adf yujty",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2018-03-08T18:25:51.735Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "21",
+        "object_repr": "Df xcvb",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2018-03-08T18:32:01.078Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "22",
+        "object_repr": "hkug hgjlk",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2018-03-08T18:36:11.928Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "IV11-1/11",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2018-03-08T18:44:37.501Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "MEPS08-1/9",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2018-03-08T18:47:15.275Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "AP12-1/8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2018-03-08T18:48:37.544Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "IV11-1/11",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2018-03-08T18:52:00.036Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "23",
+        "object_repr": "Vasia Pupkin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2018-03-08T18:52:13.794Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "32",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2018-03-08T18:52:13.903Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "31",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2018-03-08T18:52:13.992Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "30",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.080Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "29",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.169Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "28",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.247Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "27",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.317Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "26",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.384Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "25",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.450Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "24",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.517Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "23",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.595Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "22",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.695Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "21",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.784Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "20",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.861Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "19",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2018-03-08T18:52:14.950Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "18",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.039Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "17",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.106Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "16",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.184Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "15",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.284Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "14",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.361Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "13",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.439Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "12",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.517Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "11",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.591Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "10",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.658Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.736Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.813Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.891Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2018-03-08T18:52:15.969Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2018-03-08T18:52:16.098Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2018-03-08T18:52:16.180Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2018-03-08T18:52:16.256Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Model_Log object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2018-03-08T20:45:44.558Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "AP12-1/8",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"student\", \"object\": \"Egor ssdf\"}}, {\"added\": {\"name\": \"student\", \"object\": \"Pashka sdsd\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2018-03-09T19:35:43.544Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "VEBN09-1/12",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"student\", \"object\": \"Jury Boyko\"}}, {\"added\": {\"name\": \"student\", \"object\": \"James Bond\"}}, {\"added\": {\"name\": \"student\", \"object\": \"Jonh Lukas\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2018-03-09T19:36:17.989Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "19",
+        "object_repr": "Adam Jonhson",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2018-03-09T19:36:37.901Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "25",
+        "object_repr": "Pashka Egorenko",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"last_name\", \"date_of_birth\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2018-03-09T19:37:30.468Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "24",
+        "object_repr": "Egor Karpov",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"last_name\", \"date_of_birth\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2018-03-09T19:37:57.683Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "22",
+        "object_repr": "Kioto Mikamuro",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"date_of_birth\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2018-03-09T19:38:20.897Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "MEPS08-1/9",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"course_leader\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2018-03-09T19:38:38.412Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "22",
+        "object_repr": "Kioto Mikamuro",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"off_group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2018-03-09T19:38:43.858Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "21",
+        "object_repr": "Df xcvb",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"off_group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2018-03-09T19:38:55.432Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "23",
+        "object_repr": "Vasia Pupkin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"date_of_birth\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2018-03-09T19:39:41.654Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "21",
+        "object_repr": "Adolf Hallen",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"date_of_birth\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2018-03-11T14:29:35.850Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "AP12-1/8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"course_leader\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2018-03-11T14:29:55.160Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "VEBN09-1/12",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"course_leader\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2018-03-15T09:23:08.661Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "kir",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2018-03-15T09:23:17.341Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "kir",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2018-03-19T09:27:44.067Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "29",
+        "object_repr": "gyu gyu",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2018-03-19T09:27:55.657Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "30",
+        "object_repr": "gyu gyu",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2018-03-21T06:40:11.004Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "31",
+        "object_repr": "asd asdasd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2018-03-21T06:40:17.866Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "33",
+        "object_repr": "df dfg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2018-03-25T14:44:19.765Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "28",
+        "object_repr": "Jonh Lukas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"in_group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2018-03-25T14:44:24.288Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "27",
+        "object_repr": "James Bond",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"in_group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2018-03-25T14:44:28.863Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "26",
+        "object_repr": "Jury Boyko",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"in_group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+        "action_time": "2018-03-25T14:44:34.406Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "25",
+        "object_repr": "Pashka Egorenko",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"in_group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+        "action_time": "2018-03-25T14:44:39.804Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "24",
+        "object_repr": "Egor Karpov",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"in_group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+        "action_time": "2018-03-25T14:44:46.429Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "23",
+        "object_repr": "Vasia Pupkin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"in_group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+        "action_time": "2018-03-25T14:44:51.856Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "22",
+        "object_repr": "Kioto Mikamuro",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"in_group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+        "action_time": "2018-03-25T14:44:59.836Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "21",
+        "object_repr": "Adolf Hallen",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"in_group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+        "action_time": "2018-03-25T14:45:08.587Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "19",
+        "object_repr": "Adam Jonhson",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"in_group\"]}}]"
+    }
+}
+]
